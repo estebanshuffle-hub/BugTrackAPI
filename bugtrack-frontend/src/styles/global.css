@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    Inter,
+    Arial,
+    Helvetica,
+    sans-serif;
+
+  background: #0d1117;
+  color: #e6edf3;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-area {
+  flex: 1;
+  margin-left: 240px;
+}
+
+.page-content {
+  padding: 32px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.page-header h1 {
+  margin-bottom: 5px;
+}
+
+.page-header p {
+  color: #8b949e;
+}
+
+.primary-button {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 18px;
+
+  background: #238636;
+  color: white;
+
+  font-weight: 600;
+}
+
+.primary-button:hover {
+  background: #2ea043;
+}
+
+.small-button {
+  width: auto;
+}
+
+.error-message {
+  background: rgba(248, 81, 73, 0.15);
+  border: 1px solid #f85149;
+  color: #ff7b72;
+
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #c9d1d9;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid #30363d;
+  border-radius: 8px;
+
+  background: #0d1117;
+  color: white;
+
+  padding: 11px 12px;
+
+  outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #58a6ff;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.empty-state {
+  padding: 40px;
+  border: 1px dashed #30363d;
+  border-radius: 10px;
+
+  color: #8b949e;
+
+  text-align: center;
+}

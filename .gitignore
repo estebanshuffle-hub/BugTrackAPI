@@ -1,0 +1,7 @@
+﻿.vs/
+**/bin/
+**/obj/
+bugtrack-frontend/node_modules/
+bugtrack-frontend/dist/
+*.user
+*.suo
